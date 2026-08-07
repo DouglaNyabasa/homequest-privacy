@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delete Your Account | HomeQuestConnect</title>
+<meta name="description" content="How to permanently delete your HomeQuestConnect account and data." />
+<style>
+  :root {
+    --hq-bg: #F5F4F0;
+    --hq-surface: rgba(0, 0, 0, 0.04);
+    --hq-border: rgba(0, 0, 0, 0.09);
+    --hq-text: #0D0D0D;
+    --hq-text-muted: #6B7280;
+    --hq-primary: #D4933A;
+    --hq-secondary: #EC4899;
+    --hq-danger: #E03C3C;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --hq-bg: #070709;
+      --hq-surface: rgba(255, 255, 255, 0.04);
+      --hq-border: rgba(255, 255, 255, 0.08);
+      --hq-text: #F0EFE9;
+      --hq-text-muted: #8A8A9A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--hq-bg);
+    color: var(--hq-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; text-decoration: none; }
+  .brand-mark { width: 24px; height: 24px; border-radius: 6px; background: linear-gradient(135deg, #D4933A, #B8792E); }
+  .brand-name { color: var(--hq-text); font-weight: 700; font-size: 14px; letter-spacing: -0.2px; }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: -0.5px; margin: 0 0 8px; }
+  .gradient {
+    background: linear-gradient(135deg, var(--hq-primary), var(--hq-secondary));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .meta { color: var(--hq-text-muted); font-size: 14px; margin: 0 0 40px; }
+  .card {
+    background: var(--hq-surface);
+    border: 1px solid var(--hq-border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .card h2 {
+    font-size: 16px; font-weight: 700; margin: 0 0 12px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; border-radius: 50%;
+    background: var(--hq-primary); color: white;
+    font-size: 12px; font-weight: 700; flex-shrink: 0;
+  }
+  ol, ul { padding-left: 20px; margin: 8px 0; }
+  li { margin-bottom: 10px; color: var(--hq-text-muted); font-size: 14px; }
+  li strong { color: var(--hq-text); }
+  p { color: var(--hq-text-muted); font-size: 14px; }
+  a { color: var(--hq-primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .danger-note {
+    background: color-mix(in srgb, var(--hq-danger) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--hq-danger) 25%, transparent);
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 13px;
+    color: var(--hq-text-muted);
+    margin-top: 8px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--hq-border); color: var(--hq-text-muted); }
+  th { color: var(--hq-text); font-weight: 700; }
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--hq-border); color: var(--hq-text-muted); font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a href="https://homequest.co.zw" class="brand">
+      <div class="brand-mark"></div>
+      <span class="brand-name">HomeQuestConnect</span>
+    </a>
+
+    <h1>Delete Your <span class="gradient">HomeQuestConnect Account</span></h1>
+    <p class="meta">This page explains how to permanently delete your HomeQuestConnect account and what happens to your data when you do.</p>
+
+    <div class="card">
+      <h2><span class="badge">1</span> Delete from within the app (recommended)</h2>
+      <ol>
+        <li>Open the <strong>HomeQuestConnect</strong> app and sign in.</li>
+        <li>Go to the <strong>Account</strong> tab.</li>
+        <li>Scroll to the <strong>Danger Zone</strong> section and tap <strong>Delete My Account</strong>.</li>
+        <li>Confirm the deletion, then type <strong>DELETE</strong> to confirm a second time.</li>
+      </ol>
+      <div class="danger-note">This action is immediate and cannot be undone. Your account is permanently deactivated as soon as you confirm.</div>
+    </div>
+
+    <div class="card">
+      <h2><span class="badge">2</span> Request deletion by email</h2>
+      <p>If you can't access the app, email <a href="mailto:support@homequest.co.zw?subject=Delete%20my%20account">support@homequest.co.zw</a> from the email address associated with your account, with the subject line <strong>"Delete my account"</strong>. We'll process your request and confirm once it's complete, typically within a few business days.</p>
+    </div>
+
+    <div class="card">
+      <h2>What gets deleted, and what's retained</h2>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>What happens</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Name, email, phone number</td><td>Permanently removed / anonymized immediately</td></tr>
+          <tr><td>Login credentials</td><td>Permanently deleted immediately — you can never sign back into this account</td></tr>
+          <tr><td>Property listings you posted</td><td>Permanently deleted, including all photos</td></tr>
+          <tr><td>Saved/wishlisted properties</td><td>Permanently deleted</td></tr>
+          <tr><td>Notifications</td><td>Permanently deleted</td></tr>
+          <tr><td>Payment / subscription records</td><td>Retained, disassociated from your name/email, as required for financial recordkeeping</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:14px;">Once your account is deleted, you're free to create a new HomeQuest account using the same email address if you choose to come back.</p>
+    </div>
+
+    <div class="footer">
+      Questions about this process? Contact us at <a href="mailto:support@homequest.co.zw">support@homequest.co.zw</a>.
+      See also our <a href="index.html">Privacy Policy</a>.
+    </div>
+  </div>
+</body>
+</html>
